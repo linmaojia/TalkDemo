@@ -1,6 +1,6 @@
 # TalkDemo
 ###GIF
-![image](https://github.com/linmaojia/TalkDemo/blob/master/raw/2016-10-31 16_10_45.gif)
+![image](https://github.com/linmaojia/TalkDemo/blob/master/raw/2016-10-29%2017_21_42.gif)
 
 ###类似说说发布
 
