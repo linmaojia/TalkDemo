@@ -150,7 +150,6 @@
 		8979C2801D7EEBE2008A2D72 /* CoreStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 8979C2771D7EEBE2008A2D72 /* CoreStatus.m */; };
 		8979C2811D7EEBE2008A2D72 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8979C27D1D7EEBE2008A2D72 /* Reachability.m */; };
 		897D8C121D703CDF00630817 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 897D8C111D703CDF00630817 /* UIColor+HexColor.m */; };
-		897DBB4C1DC1FCA90082A657 /* YZGPictuersCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 897DBB4B1DC1FCA90082A657 /* YZGPictuersCollectionView.m */; };
 		898AB6C81D87BDDC001B07A9 /* YZGRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 898AB6C51D87BDDB001B07A9 /* YZGRootViewController.m */; };
 		898AB7201D87E41D001B07A9 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 898AB6FE1D87E41D001B07A9 /* IQNSArray+Sort.m */; };
 		898AB7211D87E41D001B07A9 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 898AB7001D87E41D001B07A9 /* IQUIScrollView+Additions.m */; };
@@ -177,10 +176,6 @@
 		8997C5E81D51E1C40000DB9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8997C5E61D51E1C40000DB9A /* LaunchScreen.storyboard */; };
 		8997C5F31D51E1C40000DB9A /* gggTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8997C5F21D51E1C40000DB9A /* gggTests.m */; };
 		8997C5FE1D51E1C50000DB9A /* gggUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8997C5FD1D51E1C50000DB9A /* gggUITests.m */; };
-		899D05EE1DBDFC2000F4A920 /* YZGReleaseTalkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 899D05E61DBDFC2000F4A920 /* YZGReleaseTalkVC.m */; };
-		899D05EF1DBDFC2000F4A920 /* YZGTalkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 899D05E91DBDFC2000F4A920 /* YZGTalkModel.m */; };
-		899D05F01DBDFC2000F4A920 /* YZGTalkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 899D05EC1DBDFC2000F4A920 /* YZGTalkManager.m */; };
-		899D05F31DBDFD2B00F4A920 /* YZGShowTalkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 899D05F21DBDFD2B00F4A920 /* YZGShowTalkVC.m */; };
 		899D06021DBE0AD500F4A920 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 899D05F61DBE0AD500F4A920 /* AFHTTPSessionManager.m */; };
 		899D06031DBE0AD500F4A920 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 899D05F91DBE0AD500F4A920 /* AFNetworkReachabilityManager.m */; };
 		899D06041DBE0AD500F4A920 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 899D05FB1DBE0AD500F4A920 /* AFSecurityPolicy.m */; };
@@ -188,14 +183,19 @@
 		899D06061DBE0AD500F4A920 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 899D05FF1DBE0AD500F4A920 /* AFURLResponseSerialization.m */; };
 		899D06071DBE0AD500F4A920 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 899D06011DBE0AD500F4A920 /* AFURLSessionManager.m */; };
 		899D060A1DBE0B9100F4A920 /* MJAFNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 899D06091DBE0B9100F4A920 /* MJAFNetWorking.m */; };
-		899D060F1DBF0B6100F4A920 /* YZGShowTalkTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 899D060C1DBF0B6100F4A920 /* YZGShowTalkTableView.m */; };
-		899D06101DBF0B6100F4A920 /* YZGShowTalkTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 899D060E1DBF0B6100F4A920 /* YZGShowTalkTableCell.m */; };
 		899D06131DBF389100F4A920 /* MJTextViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 899D06121DBF389100F4A920 /* MJTextViews.m */; };
-		899D06161DBF677800F4A920 /* YZGRemarksView.m in Sources */ = {isa = PBXBuildFile; fileRef = 899D06151DBF677800F4A920 /* YZGRemarksView.m */; };
 		899D06221DC03EE800F4A920 /* YZGUploadImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 899D061A1DC03EE800F4A920 /* YZGUploadImageVC.m */; };
 		899D06231DC03EE800F4A920 /* YZGModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 899D061D1DC03EE800F4A920 /* YZGModel.m */; };
 		899D06241DC03EE800F4A920 /* YZGManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 899D06201DC03EE800F4A920 /* YZGManager.m */; };
 		899D06271DC0941A00F4A920 /* CustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 899D06261DC0941A00F4A920 /* CustomAlertView.m */; };
+		89BF0F0A1DC754480005F24C /* YZGReleaseTalkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BF0EF81DC754480005F24C /* YZGReleaseTalkVC.m */; };
+		89BF0F0B1DC754480005F24C /* YZGShowTalkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BF0EFA1DC754480005F24C /* YZGShowTalkVC.m */; };
+		89BF0F0C1DC754480005F24C /* YZGTalkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BF0EFD1DC754480005F24C /* YZGTalkModel.m */; };
+		89BF0F0D1DC754480005F24C /* YZGTalkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BF0F001DC754480005F24C /* YZGTalkManager.m */; };
+		89BF0F0E1DC754480005F24C /* YZGPictuersCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BF0F031DC754480005F24C /* YZGPictuersCollectionView.m */; };
+		89BF0F0F1DC754480005F24C /* YZGRemarksView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BF0F051DC754480005F24C /* YZGRemarksView.m */; };
+		89BF0F101DC754480005F24C /* YZGShowTalkTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BF0F071DC754480005F24C /* YZGShowTalkTableCell.m */; };
+		89BF0F111DC754480005F24C /* YZGShowTalkTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BF0F091DC754480005F24C /* YZGShowTalkTableView.m */; };
 		89EFCD861D9CA21C0099325D /* YZGShoppingCarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFCD851D9CA21C0099325D /* YZGShoppingCarView.m */; };
 		89EFCD891D9CA3440099325D /* YZGDataManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFCD881D9CA3440099325D /* YZGDataManage.m */; };
 		89EFCD8C1D9CA7460099325D /* YZGRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFCD8B1D9CA7460099325D /* YZGRootNavigationController.m */; };
@@ -507,8 +507,6 @@
 		897D8C0B1D7028F200630817 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		897D8C101D703CDF00630817 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
 		897D8C111D703CDF00630817 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
-		897DBB4A1DC1FCA90082A657 /* YZGPictuersCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGPictuersCollectionView.h; sourceTree = "<group>"; };
-		897DBB4B1DC1FCA90082A657 /* YZGPictuersCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGPictuersCollectionView.m; sourceTree = "<group>"; };
 		898AB6C41D87BDDB001B07A9 /* YZGRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGRootViewController.h; sourceTree = "<group>"; };
 		898AB6C51D87BDDB001B07A9 /* YZGRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGRootViewController.m; sourceTree = "<group>"; };
 		898AB6FD1D87E41D001B07A9 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
@@ -563,14 +561,6 @@
 		8997C5F91D51E1C50000DB9A /* gggUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gggUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8997C5FD1D51E1C50000DB9A /* gggUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gggUITests.m; sourceTree = "<group>"; };
 		8997C5FF1D51E1C50000DB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		899D05E51DBDFC2000F4A920 /* YZGReleaseTalkVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGReleaseTalkVC.h; sourceTree = "<group>"; };
-		899D05E61DBDFC2000F4A920 /* YZGReleaseTalkVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGReleaseTalkVC.m; sourceTree = "<group>"; };
-		899D05E81DBDFC2000F4A920 /* YZGTalkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGTalkModel.h; sourceTree = "<group>"; };
-		899D05E91DBDFC2000F4A920 /* YZGTalkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGTalkModel.m; sourceTree = "<group>"; };
-		899D05EB1DBDFC2000F4A920 /* YZGTalkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGTalkManager.h; sourceTree = "<group>"; };
-		899D05EC1DBDFC2000F4A920 /* YZGTalkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGTalkManager.m; sourceTree = "<group>"; };
-		899D05F11DBDFD2B00F4A920 /* YZGShowTalkVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGShowTalkVC.h; sourceTree = "<group>"; };
-		899D05F21DBDFD2B00F4A920 /* YZGShowTalkVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGShowTalkVC.m; sourceTree = "<group>"; };
 		899D05F51DBE0AD500F4A920 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		899D05F61DBE0AD500F4A920 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		899D05F71DBE0AD500F4A920 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
@@ -586,14 +576,8 @@
 		899D06011DBE0AD500F4A920 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		899D06081DBE0B9100F4A920 /* MJAFNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJAFNetWorking.h; sourceTree = "<group>"; };
 		899D06091DBE0B9100F4A920 /* MJAFNetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJAFNetWorking.m; sourceTree = "<group>"; };
-		899D060B1DBF0B6100F4A920 /* YZGShowTalkTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGShowTalkTableView.h; sourceTree = "<group>"; };
-		899D060C1DBF0B6100F4A920 /* YZGShowTalkTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGShowTalkTableView.m; sourceTree = "<group>"; };
-		899D060D1DBF0B6100F4A920 /* YZGShowTalkTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGShowTalkTableCell.h; sourceTree = "<group>"; };
-		899D060E1DBF0B6100F4A920 /* YZGShowTalkTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGShowTalkTableCell.m; sourceTree = "<group>"; };
 		899D06111DBF389100F4A920 /* MJTextViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTextViews.h; sourceTree = "<group>"; };
 		899D06121DBF389100F4A920 /* MJTextViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTextViews.m; sourceTree = "<group>"; };
-		899D06141DBF677800F4A920 /* YZGRemarksView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGRemarksView.h; sourceTree = "<group>"; };
-		899D06151DBF677800F4A920 /* YZGRemarksView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGRemarksView.m; sourceTree = "<group>"; };
 		899D06191DC03EE800F4A920 /* YZGUploadImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGUploadImageVC.h; sourceTree = "<group>"; };
 		899D061A1DC03EE800F4A920 /* YZGUploadImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGUploadImageVC.m; sourceTree = "<group>"; };
 		899D061C1DC03EE800F4A920 /* YZGModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGModel.h; sourceTree = "<group>"; };
@@ -602,6 +586,22 @@
 		899D06201DC03EE800F4A920 /* YZGManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGManager.m; sourceTree = "<group>"; };
 		899D06251DC0941A00F4A920 /* CustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertView.h; sourceTree = "<group>"; };
 		899D06261DC0941A00F4A920 /* CustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertView.m; sourceTree = "<group>"; };
+		89BF0EF71DC754480005F24C /* YZGReleaseTalkVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGReleaseTalkVC.h; sourceTree = "<group>"; };
+		89BF0EF81DC754480005F24C /* YZGReleaseTalkVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGReleaseTalkVC.m; sourceTree = "<group>"; };
+		89BF0EF91DC754480005F24C /* YZGShowTalkVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGShowTalkVC.h; sourceTree = "<group>"; };
+		89BF0EFA1DC754480005F24C /* YZGShowTalkVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGShowTalkVC.m; sourceTree = "<group>"; };
+		89BF0EFC1DC754480005F24C /* YZGTalkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGTalkModel.h; sourceTree = "<group>"; };
+		89BF0EFD1DC754480005F24C /* YZGTalkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGTalkModel.m; sourceTree = "<group>"; };
+		89BF0EFF1DC754480005F24C /* YZGTalkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGTalkManager.h; sourceTree = "<group>"; };
+		89BF0F001DC754480005F24C /* YZGTalkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGTalkManager.m; sourceTree = "<group>"; };
+		89BF0F021DC754480005F24C /* YZGPictuersCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGPictuersCollectionView.h; sourceTree = "<group>"; };
+		89BF0F031DC754480005F24C /* YZGPictuersCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGPictuersCollectionView.m; sourceTree = "<group>"; };
+		89BF0F041DC754480005F24C /* YZGRemarksView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGRemarksView.h; sourceTree = "<group>"; };
+		89BF0F051DC754480005F24C /* YZGRemarksView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGRemarksView.m; sourceTree = "<group>"; };
+		89BF0F061DC754480005F24C /* YZGShowTalkTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGShowTalkTableCell.h; sourceTree = "<group>"; };
+		89BF0F071DC754480005F24C /* YZGShowTalkTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGShowTalkTableCell.m; sourceTree = "<group>"; };
+		89BF0F081DC754480005F24C /* YZGShowTalkTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGShowTalkTableView.h; sourceTree = "<group>"; };
+		89BF0F091DC754480005F24C /* YZGShowTalkTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGShowTalkTableView.m; sourceTree = "<group>"; };
 		89EFCD841D9CA21C0099325D /* YZGShoppingCarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGShoppingCarView.h; sourceTree = "<group>"; };
 		89EFCD851D9CA21C0099325D /* YZGShoppingCarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGShoppingCarView.m; sourceTree = "<group>"; };
 		89EFCD871D9CA3440099325D /* YZGDataManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGDataManage.h; sourceTree = "<group>"; };
@@ -1717,8 +1717,8 @@
 			children = (
 				8997C5DB1D51E1C40000DB9A /* AppDelegate.h */,
 				8997C5DC1D51E1C40000DB9A /* AppDelegate.m */,
+				89BF0EF51DC754470005F24C /* 发布说说 */,
 				899D06171DC03EE800F4A920 /* 上传图片 */,
-				899D05E31DBDFC2000F4A920 /* 发布说说 */,
 				898AB6C21D87BDDB001B07A9 /* Base(重用视图) */,
 				8979C1D91D7EDF66008A2D72 /* 拓展 */,
 				894D8FCD1DB9B90E00AE66ED /* 第三方小组件2 */,
@@ -1763,62 +1763,6 @@
 				8997C5FF1D51E1C50000DB9A /* Info.plist */,
 			);
 			path = gggUITests;
-			sourceTree = "<group>";
-		};
-		899D05E31DBDFC2000F4A920 /* 发布说说 */ = {
-			isa = PBXGroup;
-			children = (
-				899D05E41DBDFC2000F4A920 /* controllers */,
-				899D05E71DBDFC2000F4A920 /* models */,
-				899D05EA1DBDFC2000F4A920 /* tool */,
-				899D05ED1DBDFC2000F4A920 /* views */,
-			);
-			name = "发布说说";
-			path = "php接口";
-			sourceTree = "<group>";
-		};
-		899D05E41DBDFC2000F4A920 /* controllers */ = {
-			isa = PBXGroup;
-			children = (
-				899D05E51DBDFC2000F4A920 /* YZGReleaseTalkVC.h */,
-				899D05E61DBDFC2000F4A920 /* YZGReleaseTalkVC.m */,
-				899D05F11DBDFD2B00F4A920 /* YZGShowTalkVC.h */,
-				899D05F21DBDFD2B00F4A920 /* YZGShowTalkVC.m */,
-			);
-			path = controllers;
-			sourceTree = "<group>";
-		};
-		899D05E71DBDFC2000F4A920 /* models */ = {
-			isa = PBXGroup;
-			children = (
-				899D05E81DBDFC2000F4A920 /* YZGTalkModel.h */,
-				899D05E91DBDFC2000F4A920 /* YZGTalkModel.m */,
-			);
-			path = models;
-			sourceTree = "<group>";
-		};
-		899D05EA1DBDFC2000F4A920 /* tool */ = {
-			isa = PBXGroup;
-			children = (
-				899D05EB1DBDFC2000F4A920 /* YZGTalkManager.h */,
-				899D05EC1DBDFC2000F4A920 /* YZGTalkManager.m */,
-			);
-			path = tool;
-			sourceTree = "<group>";
-		};
-		899D05ED1DBDFC2000F4A920 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				899D060B1DBF0B6100F4A920 /* YZGShowTalkTableView.h */,
-				899D060C1DBF0B6100F4A920 /* YZGShowTalkTableView.m */,
-				899D060D1DBF0B6100F4A920 /* YZGShowTalkTableCell.h */,
-				899D060E1DBF0B6100F4A920 /* YZGShowTalkTableCell.m */,
-				899D06141DBF677800F4A920 /* YZGRemarksView.h */,
-				899D06151DBF677800F4A920 /* YZGRemarksView.m */,
-				897DBB4A1DC1FCA90082A657 /* YZGPictuersCollectionView.h */,
-				897DBB4B1DC1FCA90082A657 /* YZGPictuersCollectionView.m */,
-			);
-			path = views;
 			sourceTree = "<group>";
 		};
 		899D05F41DBE0AD500F4A920 /* AFNetworking */ = {
@@ -1882,6 +1826,61 @@
 		899D06211DC03EE800F4A920 /* views */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		89BF0EF51DC754470005F24C /* 发布说说 */ = {
+			isa = PBXGroup;
+			children = (
+				89BF0EF61DC754470005F24C /* controllers */,
+				89BF0EFB1DC754480005F24C /* models */,
+				89BF0EFE1DC754480005F24C /* tool */,
+				89BF0F011DC754480005F24C /* views */,
+			);
+			path = "发布说说";
+			sourceTree = "<group>";
+		};
+		89BF0EF61DC754470005F24C /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				89BF0EF71DC754480005F24C /* YZGReleaseTalkVC.h */,
+				89BF0EF81DC754480005F24C /* YZGReleaseTalkVC.m */,
+				89BF0EF91DC754480005F24C /* YZGShowTalkVC.h */,
+				89BF0EFA1DC754480005F24C /* YZGShowTalkVC.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		89BF0EFB1DC754480005F24C /* models */ = {
+			isa = PBXGroup;
+			children = (
+				89BF0EFC1DC754480005F24C /* YZGTalkModel.h */,
+				89BF0EFD1DC754480005F24C /* YZGTalkModel.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		89BF0EFE1DC754480005F24C /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				89BF0EFF1DC754480005F24C /* YZGTalkManager.h */,
+				89BF0F001DC754480005F24C /* YZGTalkManager.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		89BF0F011DC754480005F24C /* views */ = {
+			isa = PBXGroup;
+			children = (
+				89BF0F021DC754480005F24C /* YZGPictuersCollectionView.h */,
+				89BF0F031DC754480005F24C /* YZGPictuersCollectionView.m */,
+				89BF0F041DC754480005F24C /* YZGRemarksView.h */,
+				89BF0F051DC754480005F24C /* YZGRemarksView.m */,
+				89BF0F061DC754480005F24C /* YZGShowTalkTableCell.h */,
+				89BF0F071DC754480005F24C /* YZGShowTalkTableCell.m */,
+				89BF0F081DC754480005F24C /* YZGShowTalkTableView.h */,
+				89BF0F091DC754480005F24C /* YZGShowTalkTableView.m */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -2081,7 +2080,6 @@
 				8979A6E71D6D6E5B00A4A4E2 /* UIView+WebCacheOperation.m in Sources */,
 				8997C5E01D51E1C40000DB9A /* ViewController.m in Sources */,
 				8979C1F61D7EDF66008A2D72 /* NSDate+Extend.m in Sources */,
-				899D06101DBF0B6100F4A920 /* YZGShowTalkTableCell.m in Sources */,
 				8979C1FD1D7EDF66008A2D72 /* UIBarButtonItem+ButtonItem.m in Sources */,
 				899D06221DC03EE800F4A920 /* YZGUploadImageVC.m in Sources */,
 				898BF95D1D8EB0F7009F01E4 /* YZGReturnAlertView.m in Sources */,
@@ -2100,6 +2098,7 @@
 				8979A69F1D6D4AE700A4A4E2 /* MJFoundation.m in Sources */,
 				8979C1FA1D7EDF66008A2D72 /* NSString+TGHXAddtions.m in Sources */,
 				8979A6A51D6D4AE700A4A4E2 /* NSObject+MJKeyValue.m in Sources */,
+				89BF0F111DC754480005F24C /* YZGShowTalkTableView.m in Sources */,
 				8967BB681DA744190081BDA1 /* PhotoModel.m in Sources */,
 				894D8FE91DB9BA1B00AE66ED /* TZImagePickerController.m in Sources */,
 				3D50CEF21D8C2EC100CFF87C /* YZGUser.m in Sources */,
@@ -2118,8 +2117,7 @@
 				8979C2811D7EEBE2008A2D72 /* Reachability.m in Sources */,
 				8979C1F71D7EDF66008A2D72 /* NSString+Extend.m in Sources */,
 				89EFCD931D9CB3BD0099325D /* YZGOrderButtonView.m in Sources */,
-				899D05EF1DBDFC2000F4A920 /* YZGTalkModel.m in Sources */,
-				899D06161DBF677800F4A920 /* YZGRemarksView.m in Sources */,
+				89BF0F0A1DC754480005F24C /* YZGReleaseTalkVC.m in Sources */,
 				8967BB6B1DA744190081BDA1 /* PBBlurImageView.m in Sources */,
 				8979C2391D7EE273008A2D72 /* MJRefreshBackNormalFooter.m in Sources */,
 				8979A6DF1D6D6E5B00A4A4E2 /* SDWebImageManager.m in Sources */,
@@ -2152,7 +2150,6 @@
 				8967BC8A1DB5CAE60081BDA1 /* HYBLoadImageView.m in Sources */,
 				8967BB6E1DA744190081BDA1 /* PBScrollView.m in Sources */,
 				898AB7261D87E41D001B07A9 /* IQKeyboardManager.m in Sources */,
-				899D05F31DBDFD2B00F4A920 /* YZGShowTalkVC.m in Sources */,
 				898AB7231D87E41D001B07A9 /* IQUIView+Hierarchy.m in Sources */,
 				3D7A0F831D940E1300C6E04B /* JKCustomTextField.m in Sources */,
 				89EFCD891D9CA3440099325D /* YZGDataManage.m in Sources */,
@@ -2161,6 +2158,7 @@
 				8967BB6D1DA744190081BDA1 /* PBSaveBtn.m in Sources */,
 				8967BB7D1DA744190081BDA1 /* UIColor+Extend.m in Sources */,
 				3D7A0F9A1D940EBC00C6E04B /* NSString+TextDirectionality.m in Sources */,
+				89BF0F101DC754480005F24C /* YZGShowTalkTableCell.m in Sources */,
 				899D060A1DBE0B9100F4A920 /* MJAFNetWorking.m in Sources */,
 				8967BB821DA744190081BDA1 /* UIImage+Extend.m in Sources */,
 				3D50CEF11D8C2EC100CFF87C /* YZGAccessToken.m in Sources */,
@@ -2171,6 +2169,7 @@
 				894D8FED1DB9BA1B00AE66ED /* TZVideoPlayerController.m in Sources */,
 				8979A6E61D6D6E5B00A4A4E2 /* UIImageView+WebCache.m in Sources */,
 				898AB7221D87E41D001B07A9 /* IQUITextFieldView+Additions.m in Sources */,
+				89BF0F0F1DC754480005F24C /* YZGRemarksView.m in Sources */,
 				8979A6A11D6D4AE700A4A4E2 /* MJPropertyKey.m in Sources */,
 				898AB7241D87E41D001B07A9 /* IQUIViewController+Additions.m in Sources */,
 				89490A481D965A58004569A6 /* YZGErrorViews.m in Sources */,
@@ -2193,6 +2192,7 @@
 				8967BB7B1DA744190081BDA1 /* NSString+Extend.m in Sources */,
 				894D8FEB1DB9BA1B00AE66ED /* TZPhotoPreviewCell.m in Sources */,
 				8979C2381D7EE273008A2D72 /* MJRefreshBackGifFooter.m in Sources */,
+				89BF0F0C1DC754480005F24C /* YZGTalkModel.m in Sources */,
 				8979A6E21D6D6E5B00A4A4E2 /* UIImage+GIF.m in Sources */,
 				8967BB811DA744190081BDA1 /* UIImage+Cut.m in Sources */,
 				8967BB8B1DA744190081BDA1 /* UIImageView+SD.m in Sources */,
@@ -2204,9 +2204,9 @@
 				894D8FEE1DB9BA1B00AE66ED /* UIView+Layout.m in Sources */,
 				8979A6DB1D6D6E5B00A4A4E2 /* SDWebImageCompat.m in Sources */,
 				8967BC8C1DB5CAE60081BDA1 /* HYBPageControl.m in Sources */,
+				89BF0F0D1DC754480005F24C /* YZGTalkManager.m in Sources */,
 				89490A191D93BABA004569A6 /* CZCountDownView.m in Sources */,
 				898AB7281D87E41D001B07A9 /* IQTextView.m in Sources */,
-				897DBB4C1DC1FCA90082A657 /* YZGPictuersCollectionView.m in Sources */,
 				8979A6A71D6D4AE700A4A4E2 /* NSString+MJExtension.m in Sources */,
 				8967BB751DA744190081BDA1 /* CoreArchive.m in Sources */,
 				8979C2331D7EE273008A2D72 /* MJRefreshFooter.m in Sources */,
@@ -2217,7 +2217,6 @@
 				8967BB841DA744190081BDA1 /* UIImage+Water.m in Sources */,
 				8979C25F1D7EE43B008A2D72 /* SVProgressAnimatedView.m in Sources */,
 				8979A6DA1D6D6E5B00A4A4E2 /* SDImageCache.m in Sources */,
-				899D05F01DBDFC2000F4A920 /* YZGTalkManager.m in Sources */,
 				898AB72C1D87E41D001B07A9 /* IQToolbar.m in Sources */,
 				8979A6DD1D6D6E5B00A4A4E2 /* SDWebImageDownloader.m in Sources */,
 				8979C2621D7EE43B008A2D72 /* SVRadialGradientLayer.m in Sources */,
@@ -2225,7 +2224,6 @@
 				8967BB6F1DA744190081BDA1 /* PhotoImageView.m in Sources */,
 				898AB7251D87E41D001B07A9 /* IQUIWindow+Hierarchy.m in Sources */,
 				898AB7271D87E41D001B07A9 /* IQKeyboardReturnKeyHandler.m in Sources */,
-				899D05EE1DBDFC2000F4A920 /* YZGReleaseTalkVC.m in Sources */,
 				8967BB761DA744190081BDA1 /* CALayer+Anim.m in Sources */,
 				8979A6A61D6D4AE700A4A4E2 /* NSObject+MJProperty.m in Sources */,
 				8979C2431D7EE273008A2D72 /* UIView+MJExtension.m in Sources */,
@@ -2234,6 +2232,7 @@
 				8979C1F91D7EDF66008A2D72 /* NSString+Size.m in Sources */,
 				8979A6A41D6D4AE700A4A4E2 /* NSObject+MJCoding.m in Sources */,
 				8979A6E31D6D6E5B00A4A4E2 /* UIImage+MultiFormat.m in Sources */,
+				89BF0F0E1DC754480005F24C /* YZGPictuersCollectionView.m in Sources */,
 				894D8FE61DB9BA1B00AE66ED /* TZAssetModel.m in Sources */,
 				8967BB6C1DA744190081BDA1 /* PBPGView.m in Sources */,
 				8967BB771DA744190081BDA1 /* CALayer+Transition.m in Sources */,
@@ -2242,6 +2241,7 @@
 				8979A6E11D6D6E5B00A4A4E2 /* UIButton+WebCache.m in Sources */,
 				8979C2731D7EE8F5008A2D72 /* SVHTTPClient.m in Sources */,
 				894D8FE71DB9BA1B00AE66ED /* TZImageManager.m in Sources */,
+				89BF0F0B1DC754480005F24C /* YZGShowTalkVC.m in Sources */,
 				894D8FEC1DB9BA1B00AE66ED /* TZPhotoPreviewController.m in Sources */,
 				8979C2421D7EE273008A2D72 /* UIScrollView+MJRefresh.m in Sources */,
 				8979C23B1D7EE273008A2D72 /* MJRefreshGifHeader.m in Sources */,
@@ -2249,7 +2249,6 @@
 				8979C2741D7EE8F5008A2D72 /* SVHTTPRequest.m in Sources */,
 				3D50CEF31D8C2EC100CFF87C /* YZGUserManager.m in Sources */,
 				8979A6D81D6D6E5B00A4A4E2 /* MKAnnotationView+WebCache.m in Sources */,
-				899D060F1DBF0B6100F4A920 /* YZGShowTalkTableView.m in Sources */,
 				8979A6DE1D6D6E5B00A4A4E2 /* SDWebImageDownloaderOperation.m in Sources */,
 				8979C23D1D7EE273008A2D72 /* MJRefreshStateHeader.m in Sources */,
 				8979C1FC1D7EDF66008A2D72 /* UIImage+Color.m in Sources */,
