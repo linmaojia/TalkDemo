@@ -7,9 +7,9 @@
 #define appendStr(str1,str2) [[NSString alloc] initWithFormat:@"%@%@",str1, str2]
 #define getAuthTokenPath @"/v1/oauth2/token"
 //本地环境
-#define LocalEnvironment
+//#define LocalEnvironment
 //测试环境
-//#define testingEnvironment
+#define testingEnvironment
 //正式环境
 //#define OfficialEnvironment
 /**
